@@ -47,15 +47,15 @@ class Owner
   end
 
   def walk_dogs
-    self.pets[:dogs].collect!{ |dog| dog.mood = 'happy' }
+    self.pets[:dogs].collect! { |dog| dog.mood = 'happy' }
   end
 
   def feed_fish
-    self.pets[:fish].collect!{ |fish| fish.mood = 'happy' }
+    self.pets[:fish].collect! { |fish| fish.mood = 'happy' }
   end
 
   def play_with_cats
-    self.pets[:cats].collect!{ |cat| cat.mood = 'happy' }
+    self.pets[:cats].collect! { |cat| cat.mood = 'happy' }
   end
 
   def sell_pets
