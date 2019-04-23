@@ -1,5 +1,6 @@
 class Owner
-  # code goes here
+  @@all = []
+  
   attr_accessor :pets, :mood
 
   def initialize
