@@ -29,5 +29,6 @@ class Owner
 
   def buy_fish(name)
     fish = Fish.new(name)
+    @pets[:fishes].empty? ? @pets[:fishes] << fish
   end
 end
