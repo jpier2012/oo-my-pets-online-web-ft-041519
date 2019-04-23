@@ -50,4 +50,8 @@ class Owner
     self.pets[:dogs].collect!{ |dog| dog.mood = 'happy' }
   end
 
+  def feed_fish
+    self.pets[:dogs].collect!{ |dog| dog.mood = 'happy' }
+  end
+
 end
